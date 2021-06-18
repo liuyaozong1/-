@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B17E4035267C31400033B1B1 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E4034267C31400033B1B1 /* PhotoCollectionViewCell.swift */; };
 		B180867B267AEDB000C25C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180867A267AEDB000C25C94 /* AppDelegate.swift */; };
-		B180867D267AEDB000C25C94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180867C267AEDB000C25C94 /* SceneDelegate.swift */; };
 		B180867F267AEDB000C25C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180867E267AEDB000C25C94 /* ViewController.swift */; };
-		B1808682267AEDB000C25C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1808680267AEDB000C25C94 /* Main.storyboard */; };
 		B1808684267AEDB200C25C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1808683267AEDB200C25C94 /* Assets.xcassets */; };
 		B1808687267AEDB200C25C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1808685267AEDB200C25C94 /* LaunchScreen.storyboard */; };
 		B1808692267AEDB200C25C94 /* LYZMediaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1808691267AEDB200C25C94 /* LYZMediaPickerTests.swift */; };
@@ -35,11 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B17E4034267C31400033B1B1 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		B1808677267AEDB000C25C94 /* LYZMediaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZMediaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B180867A267AEDB000C25C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B180867C267AEDB000C25C94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B180867E267AEDB000C25C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1808681267AEDB000C25C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1808683267AEDB200C25C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1808686267AEDB200C25C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1808688267AEDB200C25C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				B180867A267AEDB000C25C94 /* AppDelegate.swift */,
-				B180867C267AEDB000C25C94 /* SceneDelegate.swift */,
 				B180867E267AEDB000C25C94 /* ViewController.swift */,
-				B1808680267AEDB000C25C94 /* Main.storyboard */,
 				B1808683267AEDB200C25C94 /* Assets.xcassets */,
 				B1808685267AEDB200C25C94 /* LaunchScreen.storyboard */,
 				B1808688267AEDB200C25C94 /* Info.plist */,
+				B17E4034267C31400033B1B1 /* PhotoCollectionViewCell.swift */,
 			);
 			path = LYZMediaPicker;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			files = (
 				B1808687267AEDB200C25C94 /* LaunchScreen.storyboard in Resources */,
 				B1808684267AEDB200C25C94 /* Assets.xcassets in Resources */,
-				B1808682267AEDB000C25C94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +256,7 @@
 			files = (
 				B180867F267AEDB000C25C94 /* ViewController.swift in Sources */,
 				B180867B267AEDB000C25C94 /* AppDelegate.swift in Sources */,
-				B180867D267AEDB000C25C94 /* SceneDelegate.swift in Sources */,
+				B17E4035267C31400033B1B1 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1808680267AEDB000C25C94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1808681267AEDB000C25C94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1808685267AEDB200C25C94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XKTT6NGLD;
 				INFOPLIST_FILE = LYZMediaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XKTT6NGLD;
 				INFOPLIST_FILE = LYZMediaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
